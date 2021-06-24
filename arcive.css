@@ -1,0 +1,278 @@
+nav{
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+img{
+    max-width: 100%;
+}
+nav ul li a{
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 2.5rem !important;
+}
+form span{
+    font-size: 25px;
+    padding: 20px;
+}
+.btn-dark {
+	margin: auto 19px;
+}
+.fa, .fas {
+	margin-left: -20px;
+}
+/* hero section */
+.hero{
+    margin: 150px 0px 20px 0px;
+    padding: 40px 0px;
+    display: flex;
+}
+.texts h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.texts sup{
+    font-size: 20px;
+}
+sup {
+	top: -2.5em;
+	left: 1em;
+}
+.pagi{
+    text-align: right;
+    align-self: flex-end;
+}
+.pagi  p{
+   font-size: 20px;
+}
+.pagi span{
+    padding: 0px 10px;
+    color: gray;
+}
+.pagination{
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* post section */
+.popu{
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.posts{
+    background-color: #FAFAFA;
+    padding-top: 10px;
+}
+.card-body p{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 6px 0px;
+}
+.card-body{
+    padding: 50px 20px;
+}
+.card{
+    border: none;
+}
+.card:hover{
+    box-shadow: 0 2px 2px 5px rgba(177, 177, 177, 0.075);
+}
+
+.fashion{
+    background-color: #FFCDA3;
+    display: inline-block;
+    padding:  10px;
+    border-radius: 10px;
+}
+.imgwidth img{
+    max-width: 100%;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    position: relative;
+   justify-content: space-between;
+}
+.author img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.author h5 {
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: -213px;
+}
+.author ul li{
+    padding-top: 20px;
+}
+.times {
+	position: absolute;
+	top: 10px;
+	left: 244px;
+}
+.times h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+.times ul li{
+    list-style: none;
+}
+.self{
+    align-self: flex-end;
+    justify-self: flex-end;
+    justify-content: flex-end;
+}
+
+
+.card-text{
+    font-size: 1.2rem !important;
+}
+.card-text2{
+    font-size: .90rem !important;
+    font-weight: 400 !important;
+    padding-left: 16px;
+    margin-top: -22px;
+}
+.none{
+    padding: 6px ;
+}
+.galarry{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.galarry img{
+    flex-basis: 100px;
+    height: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.btn2{
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    margin: 60px 0px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.87);
+    color: black;
+    border: 1px solid black;
+}
+
+
+.newsletter{
+    padding: 50px 0px 30px 0px;
+    background-color: #FEECE4;
+    margin-top: 40px;
+}
+.sent{
+    font-size: 35px;
+}
+.sub{
+    font-size: 30px;
+    color: gray;
+    padding: 20px 0px;
+}
+.bol{
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.newsletter input{
+    padding: 15px 20px;
+    width: 70%;
+    border: none;
+}
+.newsletter .btn{
+    background-color: black;
+    color: #fff;
+    padding: 15px 30px;
+}
+.col-lg-5{
+	text-align: right;
+}
+.col-lg-5 p{
+	text-align: left;
+}
+.col-lg-5 h2{
+	text-align: left;
+}
+/* download */
+.down{
+    background-color: #111111;
+    padding: 40px 0px;
+  
+}
+.right{
+    text-align: right;
+    color: #ffff;
+}
+.btn4{
+    background-color: coral;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 7px;
+}
+/* footer section */
+footer{
+    padding: 5px 0px;
+    background-color: #111111;
+    color: #DDDDDD;
+}
+footer h3{
+    padding: 10px 0px 30px 0px;
+}
+.bakimage {
+	background-image: url(img/sketch-3.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position-x: 135px;
+	background-position-y: 172px;
+}
+.links ul li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 1.2rem;
+}
+.cloud a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+    background-color: #484848;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.align{
+ padding-top: 290px;
+}
+.border1{
+    border-bottom: 1px solid rgba(175, 175, 175, 0.315);
+    padding-bottom: 20px;
+}
+.icon span{
+    font-size: 20px;
+}
+.icon{
+    text-align: right
+}
+.last{
+    padding: 20px 0px 0px 0px;
+}
